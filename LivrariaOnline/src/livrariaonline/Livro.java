@@ -31,7 +31,7 @@ public class Livro extends Produto {
     }
 
     public double calcularDesconto() {
-        return super.getPreco() * 0.9;
+        return super.getPreco()/0.1;
     }
 
 }
