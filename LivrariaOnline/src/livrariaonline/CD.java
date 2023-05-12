@@ -32,7 +32,7 @@ public class CD extends Produto {
 
     @Override
     public double calcularDesconto() {
-        return super.getPreco()/0.05;
+        return super.getPreco()*0.95;
     }
 
 }

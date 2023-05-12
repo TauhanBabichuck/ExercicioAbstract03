@@ -38,7 +38,7 @@ public abstract class Produto {
     }
 
     public String exibirDetalhes() {
-        return "Produto{" + "Titulo=" + titulo + ", Preço=" + preco + calcularDesconto() + '}';
+        return  "Titulo=" + titulo + ", Preço=" + calcularDesconto();
     }
 
 }
